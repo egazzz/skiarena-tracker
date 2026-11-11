@@ -64,19 +64,9 @@ Backup files can be exchanged between Android and iPhone.
 | Internet | Checking for and downloading updates |
 | Install apps | Installing downloaded updates (Android asks once) |
 
-## Building from source
+## Release notes for maintainers
 
-The Android app is written in [B4A](https://www.b4x.com/b4a.html) (Basic4Android). The iPhone/web version in `docs/` is a separate build (React, Vite, Tailwind) that uses the same backup format.
-
-- Libraries: Core, DateUtils, IME, JavaObject, JSON, OkHttp, OkHttpUtils2, Phone, SQL, StringUtils, XUI, XUI Views
-- Translations: `Files/lang_it.json` and `Files/lang_en.json`. German is the source language. Keys are the German texts used in `Tr("…")` / `TrF("… {0} …", …)`.
-
-**Releasing a new version:**
-1. Increase `#VersionCode` and `#VersionName` and update the changelog in `ShowChangelog`.
-2. Build in release mode with the **same signing key** as before.
-3. Create a GitHub release with the tag `v` + version name (e.g. `v1.8.1`), add release notes and attach the `.apk`. Do not mark it as a pre-release.
-
-The app compares the release tag with its installed version and shows the release notes in the update dialog.
+New versions are published as GitHub releases with the tag `v` + version name (e.g. `v1.8.1`) and the `.apk` attached. The Android app checks the latest release for updates. The iPhone/web version is served from the `docs/` folder via GitHub Pages.
 
 ## Feedback
 
