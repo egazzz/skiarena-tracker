@@ -1,6 +1,6 @@
 # Skiarena Tracker
 
-An Android app for holders of the **Südtirol Skiarena** year-round pass. Log your mountain days and see when your pass has paid for itself. Your liability insurance certificate is always at hand, even offline.
+An app for holders of the **Südtirol Skiarena** year-round pass. Log your mountain days and see when your pass has paid for itself. Your liability insurance certificate is always at hand, even offline.
 
 > **Unofficial app.** It is not provided by Südtirol Skiarena and is not affiliated with any lift operator. All information is provided without guarantee.
 
@@ -26,11 +26,26 @@ An Android app for holders of the **Südtirol Skiarena** year-round pass. Log yo
 
 ## Installation
 
+### Android
+
 1. Download the latest `.apk` from [Releases](../../releases/latest).
 2. Open it on your phone. If Android asks, allow installing apps from this source.
 3. Done. Future updates are offered directly in the app: menu ⋮ → *Check for updates*.
 
 **Requirements:** Android 5.0 (API 21) or newer.
+
+### iPhone (and any browser)
+
+1. Open **https://egazzz.github.io/skiarena-tracker/** in **Safari**.
+2. Tap **Share** → **Add to Home Screen** → **Add**.
+3. The tracker now starts like an app and also works offline. Updates load automatically when you open it with an internet connection.
+
+The iPhone version has the same features as the Android app, with a few differences:
+- No automatic backup. Save a backup file regularly via menu ⋮ → *Backup*, e.g. to iCloud Drive.
+- During a slope check the screen stays on, but the app cannot raise the brightness.
+- No app shortcuts, no diagnostic report.
+
+Backup files can be exchanged between Android and iPhone.
 
 > **Switching phones or reinstalling?** Restore your backup first. On first start, the app offers to restore from a backup file or from your backup folder.
 
@@ -39,6 +54,7 @@ An Android app for holders of the **Südtirol Skiarena** year-round pass. Log yo
 - All data (days, settings, documents) is stored **only on your device**. There is no account, no cloud server and no tracking.
 - The app uses the internet **only** to check this repository for new releases (GitHub API) and to download updates.
 - Backups are written only to the folder you choose.
+- iPhone/web version: all data stays in the browser storage on your device. If you clear Safari's website data, it is gone – keep a backup.
 - The diagnostic report is created only when you request it, and you decide where to send it. It contains no days, resorts or documents.
 
 ### Permissions
@@ -50,7 +66,7 @@ An Android app for holders of the **Südtirol Skiarena** year-round pass. Log yo
 
 ## Building from source
 
-The app is written in [B4A](https://www.b4x.com/b4a.html) (Basic4Android).
+The Android app is written in [B4A](https://www.b4x.com/b4a.html) (Basic4Android). The iPhone/web version in `docs/` is a separate build (React, Vite, Tailwind) that uses the same backup format.
 
 - Libraries: Core, DateUtils, IME, JavaObject, JSON, OkHttp, OkHttpUtils2, Phone, SQL, StringUtils, XUI, XUI Views
 - Translations: `Files/lang_it.json` and `Files/lang_en.json`. German is the source language. Keys are the German texts used in `Tr("…")` / `TrF("… {0} …", …)`.
