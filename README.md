@@ -4,6 +4,8 @@ An app for holders of the **Südtirol Skiarena** year-round pass. Log your mount
 
 **Android:** [download the latest APK](../../releases/latest) · **iPhone:** [egazzz.github.io/skiarena-tracker](https://egazzz.github.io/skiarena-tracker/)
 
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/egazzz)
+
 > **Unofficial app.** It is not provided by Südtirol Skiarena and is not affiliated with any lift operator. All information is provided without guarantee.
 
 <p align="center">
@@ -20,6 +22,7 @@ An app for holders of the **Südtirol Skiarena** year-round pass. Log your mount
 - **Log mountain days.** Pick the resort, activity (skiing, ski touring, tobogganing, hiking, biking), lift use and date. "Today like last time" adds a day with one tap.
 - **Pass payback.** Each day is valued at what it would have cost without the pass. Prices come from a configurable price table, with optional per-resort prices and per-entry overrides. You see how much is left until the pass has paid off, or how much you have saved.
 - **Pass years.** Each pass year has its own period and price. Statistics are calculated per year, with a year-to-year comparison.
+- **Travel, fuel & CO₂.** Set your home town, drive type (petrol, diesel, LPG, electric) and consumption once. For each mountain day you choose how you got there: car, car pool, public transport or without a car. The app estimates kilometres, fuel costs and CO₂ – and the CO₂ you saved. Road distances to all 18 resorts are looked up once via OpenStreetMap and can be adjusted. The fuel price is set per pass year.
 - **Extra costs.** Track extras such as bike transport or a dog. They appear as a separate total and are not counted towards the payback.
 - **Statistics.** Value by sport, winter/summer split, and an explorer list of all 18 resorts with your visits.
 - **Resorts.** All 18 resorts of the alliance in South Tyrol, Nauders (AT) and Minschuns (CH), with key figures, webcam links and your own visit history.
@@ -61,7 +64,7 @@ The iPhone version has the same features as the Android app, with a few differen
 ## Privacy
 
 - All data (days, settings, documents) is stored **only on your device**. There is no account, no cloud server and no tracking.
-- The Android app uses the internet **only** to check this repository for new releases (GitHub API) and to download updates.
+- The Android app uses the internet **only** to check this repository for new releases (GitHub API), to download updates and – when you set your home town – once to look up the place and the road distances via OpenStreetMap (Nominatim, OSRM). Only the place name you type and its coordinates are sent.
 - On Android, automatic backups are written only to the folder you choose.
 - On iPhone, all data stays in the browser storage on your device. If you clear Safari's website data, it is gone – keep a backup.
 - The diagnostic report is created only when you request it, and you decide where to send it. It contains no days, resorts or documents.
@@ -79,6 +82,10 @@ The iPhone version needs no permissions.
 
 - **Android:** New versions are published as GitHub releases with the tag `v` + version name (e.g. `v1.8.1`) and the `.apk` attached. Do not mark them as pre-release. The app checks the latest release for updates and shows its release notes.
 - **iPhone/web:** Served from the `docs/` folder via GitHub Pages (branch `main`, folder `/docs`). To update, replace the contents of `docs/` with the new build and keep the empty `docs/.nojekyll` file.
+
+## Support
+
+The app is free, with no ads and no tracking. I build it in my spare time. If you like it, you can [buy me a coffee on Ko-fi](https://ko-fi.com/egazzz) ☕ – you can pay by card, Apple Pay or Google Pay, no sign-up needed. In the app: menu ⋮ → *Support the app*.
 
 ## Feedback
 
