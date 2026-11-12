@@ -1,7 +1,7 @@
 // Service Worker: Seite zuerst aus dem Netz (damit Updates sofort ankommen), sonst aus dem Cache.
 // Dateien mit Hash im Namen (assets/) kommen aus dem Cache – sie ändern sich nie.
-const CACHE = 'skiarena-f95ac2413d';
-const ASSETS = ["./assets/index-BCj3jVKd.js","./assets/index-DFlFIrFu.css","./assets/pdf-DkcfldCQ.js","./assets/pdf.worker.min-B-BczD9f.js","./assets/pdf.worker.min-Dr1KORA9.mjs"];
+const CACHE = 'skiarena-55a803671e';
+const ASSETS = ["./assets/index-BPCzRXby.js","./assets/index-Byy_FyeW.css","./assets/pdf-DkcfldCQ.js","./assets/pdf.worker.min-B-BczD9f.js","./assets/pdf.worker.min-Dr1KORA9.mjs"];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './index.html', './manifest.webmanifest', './icon-192.png', './apple-touch-icon.png', ...ASSETS])).then(() => self.skipWaiting()));

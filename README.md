@@ -1,12 +1,12 @@
-# Skiarena Tracker
+# Skiarena-Tracker
 
-An app for holders of the **Südtirol Skiarena** year-round pass. Log your mountain days and see when your pass has paid for itself. Your liability insurance certificate is always at hand, even offline.
+An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, **Zillertal Superskipass** or your own pass. Log your mountain days and see when your pass has paid for itself. Your liability insurance certificate is always at hand, even offline.
 
 **Android:** [download the latest APK](../../releases/latest) · **iPhone:** [egazzz.github.io/skiarena-tracker](https://egazzz.github.io/skiarena-tracker/)
 
 [![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/egazzz)
 
-> **Unofficial app.** It is not provided by Südtirol Skiarena and is not affiliated with any lift operator. All information is provided without guarantee.
+> **Unofficial app.** It is not provided by any ski pass network and is not affiliated with any lift operator. All information is provided without guarantee.
 
 <p align="center">
   <img src="screenshots/screenshots%20(1).png" width="200" alt="Mountain days">
@@ -19,15 +19,16 @@ An app for holders of the **Südtirol Skiarena** year-round pass. Log your mount
 
 ## Features
 
+- **Ski passes as profiles.** Each profile is one ski pass network with its own mountain days, pass years and prices: Südtirol Skiarena (18 resorts), Dolomiti Superski (12 areas), Zillertal Superskipass (5 areas) or a custom pass with your own resorts. Switch by tapping the profile name at the top. Document safe and travel settings are shared.
 - **Log mountain days.** Pick the resort, activity (skiing, ski touring, tobogganing, hiking, biking), lift use and date. "Today like last time" adds a day with one tap.
 - **Pass payback.** Each day is valued at what it would have cost without the pass. Prices come from a configurable price table, with optional per-resort prices and per-entry overrides. You see how much is left until the pass has paid off, or how much you have saved.
 - **Pass years.** Each pass year has its own period and price. Statistics are calculated per year, with a year-to-year comparison.
-- **Travel, fuel & CO₂.** Set your home town, drive type (petrol, diesel, LPG, electric) and consumption once. For each mountain day you choose how you got there: car, car pool, public transport or without a car. The app estimates kilometres, fuel costs and CO₂ – and the CO₂ you saved. Road distances to all 18 resorts are looked up once via OpenStreetMap and can be adjusted. The fuel price is set per pass year.
+- **Travel, fuel & CO₂.** Set your home town, drive type (petrol, diesel, LPG, electric) and consumption once. For each mountain day you choose how you got there: car, car pool, public transport or without a car. The app estimates kilometres, fuel costs and CO₂ – and the CO₂ you saved. Road distances to all resorts are looked up once via OpenStreetMap and can be adjusted. The fuel price is set per pass year.
 - **Extra costs.** Track extras such as bike transport or a dog. They appear as a separate total and are not counted towards the payback.
 - **Statistics.** Value by sport, winter/summer split, and an explorer list of all 18 resorts with your visits.
-- **Resorts.** All 18 resorts of the alliance in South Tyrol, Nauders (AT) and Minschuns (CH), with key figures, webcam links and your own visit history.
+- **Resorts.** All resorts of the selected pass with key figures, webcam links and your own visit history. Add your own resorts at any time.
 - **Document safe and slope check.**
-  - Store your ski liability insurance (RCT, mandatory in Italy under D.Lgs. 40/2021) as a PDF or photo.
+  - Store your ski liability insurance (RCT, mandatory in Italy under D.Lgs. 40/2021) as a PDF or photo. The legal notice is shown for passes with resorts in Italy.
   - Show it during a check in Italian, offline and full screen.
 - **Backup.**
   - Manual export and import, so you can move to a new phone.

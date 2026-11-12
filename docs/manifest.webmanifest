@@ -1,7 +1,7 @@
 {
-  "name": "Südtirol Skiarena Tracker",
+  "name": "Skiarena-Tracker",
   "short_name": "Skiarena",
-  "description": "Bergtage mit dem Südtirol Skiarena Ganzjahrespass erfassen, Amortisation berechnen, RCT-Nachweis offline dabei.",
+  "description": "Bergtage mit deinem Skipass erfassen, Amortisation berechnen, RCT-Nachweis offline dabei.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
