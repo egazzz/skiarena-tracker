@@ -8,12 +8,32 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
 
 > **Unofficial app.** It is not provided by any ski pass network and is not affiliated with any lift operator. All information is provided without guarantee.
 
-<p align="center">
-  <img src="screenshots/screenshots%20(1).png" width="200" alt="Mountain days">
-  <img src="screenshots/screenshots%20(2).png" width="200" alt="Statistics">
-  <img src="screenshots/screenshots%20(3).png" width="200" alt="Resorts">
-  <img src="screenshots/2026-11-11_210344.png" width="200" alt="Document safe">
-</p>
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/days.png" width="220" alt="Mountain days"><br><sub>Mountain days</sub></td>
+    <td align="center"><img src="screenshots/log-day.png" width="220" alt="Log a day"><br><sub>Log a day</sub></td>
+    <td align="center"><img src="screenshots/statistics.png" width="220" alt="Pass payback"><br><sub>Pass payback</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/travel-co2.png" width="220" alt="Travel, fuel & CO₂"><br><sub>Travel, fuel & CO₂</sub></td>
+    <td align="center"><img src="screenshots/resorts.png" width="220" alt="Resorts"><br><sub>Resorts</sub></td>
+    <td align="center"><img src="screenshots/ski-passes.png" width="220" alt="Ski passes as profiles"><br><sub>Ski passes as profiles</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/safe.png" width="220" alt="Document safe"><br><sub>Document safe</sub></td>
+    <td align="center"><img src="screenshots/slope-check.png" width="220" alt="Slope check (RCT)"><br><sub>Slope check (RCT)</sub></td>
+    <td align="center"><img src="screenshots/settings.png" width="220" alt="Settings"><br><sub>Settings</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="screenshots/large-text.png" width="220" alt="150 % size, legible font"><br><sub>150 % size, legible font</sub></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<sub>Screenshots of the iPhone/web version with demo data. The Android app looks the same.</sub>
 
 ---
 
