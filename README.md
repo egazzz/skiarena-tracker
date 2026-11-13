@@ -87,7 +87,8 @@ The iPhone version has the same features as the Android app, with a few differen
 
 ## Privacy
 
-- All data (days, settings, documents) is stored **only on your device**. There is no account, no cloud server and no tracking.
+- All data (days, settings, documents) is stored **only on your device**. There is no account, no server of its own and no tracking.
+- On Android, if Google backup is turned on on your phone, Android also backs up the app data (including documents) to your Google account, as it does for other apps. You control this in the Android settings under Google backup.
 - The Android app uses the internet **only** to check this repository for new releases (GitHub API), to download updates and – when you set your home town – once to look up the place and the road distances via OpenStreetMap (Nominatim, OSRM). Only the place name you type and its coordinates are sent.
 - On Android, automatic backups are written only to the folder you choose.
 - On iPhone, all data stays in the browser storage on your device. If you clear Safari's website data, it is gone – keep a backup.
