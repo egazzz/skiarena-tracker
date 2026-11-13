@@ -34,7 +34,10 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
   - Manual export and import, so you can move to a new phone.
   - Android only: automatic backup to a folder of your choice, e.g. Google Drive.
   - Backup files work on both Android and iPhone.
-- **Three languages.** German, Italian and English. The app follows your system language by default, or you can pick one manually.
+- **Settings in one place.** Tap ⚙️ at the top right for language, ski passes, costs, travel, backup, updates and help.
+- **Easy to read.** Choose a font (standard, the highly legible *Atkinson Hyperlegible*, rounded or serif) and an app size of 100 %, 115 %, 125 % or 150 % – text, buttons and spacing grow together.
+- **Only what you need.** Optional fields (value and extra costs, fuel price, insurance details) can open automatically when filled in, always stay open, or stay collapsed.
+- **Three languages.** German, Italian and English. The app follows your system language by default, or you can pick one in the settings.
 - **Updates.** The Android app checks this repository's releases and installs new versions on request. The iPhone version updates itself automatically.
 - **Diagnostic report (Android).** Share technical details and an error log to help fix problems. It contains no personal data.
 
@@ -44,7 +47,7 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
 
 1. Download the latest `.apk` from [Releases](../../releases/latest).
 2. Open it on your phone. If Android asks, allow installing apps from this source.
-3. Done. Future updates are offered directly in the app: menu ⋮ → *Check for updates*.
+3. Done. Future updates are offered directly in the app when it starts (this can be turned off in ⚙️ Settings).
 
 **Requirements:** Android 5.0 (API 21) or newer.
 
@@ -56,7 +59,7 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
 
 The iPhone version has the same features as the Android app, with a few differences:
 
-- No automatic backup. Save a backup file regularly via menu ⋮ → *Backup*, e.g. to iCloud Drive.
+- No automatic backup. Save a backup file regularly via ⚙️ Settings → *Backup*, e.g. to iCloud Drive.
 - During a slope check the screen stays on, but the app cannot raise the brightness.
 - No app shortcuts, no diagnostic report.
 
@@ -84,10 +87,15 @@ The iPhone version needs no permissions.
 - **Android:** New versions are published as GitHub releases with the tag `v` + version name (e.g. `v1.8.1`) and the `.apk` attached. Do not mark them as pre-release. The app checks the latest release for updates and shows its release notes.
 - **iPhone/web:** Served from the `docs/` folder via GitHub Pages (branch `main`, folder `/docs`). To update, replace the contents of `docs/` with the new build and keep the empty `docs/.nojekyll` file.
 
+## Credits
+
+- Fonts [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/) (Braille Institute) and [Nunito](https://github.com/googlefonts/nunito), both under the SIL Open Font License 1.1.
+- Maps and distances: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, [OSRM](https://project-osrm.org/).
+
 ## Support
 
-The app is free, with no ads and no tracking. I build it in my spare time. If you like it, you can [buy me a coffee on Ko-fi](https://ko-fi.com/egazzz) ☕ – you can pay by card, Apple Pay or Google Pay, no sign-up needed. In the app: menu ⋮ → *Support the app*.
+The app is free, with no ads and no tracking. I build it in my spare time. If you like it, you can [buy me a coffee on Ko-fi](https://ko-fi.com/egazzz) ☕ – you can pay by card, Apple Pay or Google Pay, no sign-up needed. In the app: ⚙️ Settings → *Support the app*.
 
 ## Feedback
 
-Found a bug? On Android, send a diagnostic report from the app (menu ⋮ → *Send diagnostic report*), or open an [issue](../../issues).
+Found a bug? On Android, send a diagnostic report from the app (⚙️ Settings → *Send diagnostic report*), or open an [issue](../../issues).
