@@ -14,7 +14,12 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
   <tr>
     <td align="center"><img src="screenshots/days.png" width="220" alt="Mountain days"><br><sub>Mountain days</sub></td>
     <td align="center"><img src="screenshots/log-day.png" width="220" alt="Log a day"><br><sub>Log a day</sub></td>
+    <td align="center"><img src="screenshots/setup-wizard.png" width="220" alt="Setup wizard"><br><sub>Setup wizard</sub></td>
+  </tr>
+  <tr>
     <td align="center"><img src="screenshots/statistics.png" width="220" alt="Pass payback"><br><sub>Pass payback</sub></td>
+    <td align="center"><img src="screenshots/charts.png" width="220" alt="Statistics charts"><br><sub>Statistics charts</sub></td>
+    <td align="center"><img src="screenshots/stats-compact.png" width="220" alt="Compact statistics"><br><sub>Compact statistics</sub></td>
   </tr>
   <tr>
     <td align="center"><img src="screenshots/travel-co2.png" width="220" alt="Travel, fuel & CO₂"><br><sub>Travel, fuel & CO₂</sub></td>
@@ -45,8 +50,9 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
 - **Pass years.** Each pass year has its own period and price. Statistics are calculated per year, with a year-to-year comparison.
 - **Travel, fuel & CO₂.** Set your home town, drive type (petrol, diesel, LPG, electric) and consumption once. For each mountain day you choose how you got there: car, car pool, public transport or without a car. The app estimates kilometres, fuel costs and CO₂ – and the CO₂ you saved. Road distances to all resorts are looked up once via OpenStreetMap and can be adjusted. The fuel price is set per pass year.
 - **Extra costs.** Track extras such as bike transport or a dog. They appear as a separate total and are not counted towards the payback.
-- **Statistics.** Value by sport, winter/summer split, and an explorer list of all 18 resorts with your visits.
-- **Resorts.** All resorts of the selected pass with key figures, webcam links and your own visit history. Add your own resorts at any time.
+- **Guided setup.** On first launch a short wizard walks you through language and appearance, your ski pass, the pass year and price, travel and backup. You can run it again from the settings.
+- **Statistics with charts.** A payback curve shows how the ticket value adds up over the pass year and the day the pass paid off, plus days per month (winter/summer) and per weekday. Value by sport, winter/summer split and an explorer list of all resorts with your visits. Switch between a compact view with the key numbers and the detailed view.
+- **Resorts.** All resorts of the selected pass with key figures, links to the official webcam pages and your own visit history. Add your own resorts at any time.
 - **Document safe and slope check.**
   - Store your ski liability insurance (RCT, mandatory in Italy under D.Lgs. 40/2021) as a PDF or photo. The legal notice is shown for passes with resorts in Italy.
   - Show it during a check in Italian, offline and full screen.
