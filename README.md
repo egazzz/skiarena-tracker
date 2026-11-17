@@ -22,6 +22,11 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
     <td align="center"><img src="screenshots/stats-compact.png" width="220" alt="Compact statistics"><br><sub>Compact statistics</sub></td>
   </tr>
   <tr>
+    <td align="center"><img src="screenshots/dark-days.png" width="220" alt="Dark mode"><br><sub>Dark mode</sub></td>
+    <td align="center"><img src="screenshots/dark-charts.png" width="220" alt="Dark mode charts"><br><sub>Dark mode charts</sub></td>
+    <td align="center"><img src="screenshots/settings.png" width="220" alt="Settings"><br><sub>Settings</sub></td>
+  </tr>
+  <tr>
     <td align="center"><img src="screenshots/travel-co2.png" width="220" alt="Travel, fuel & CO₂"><br><sub>Travel, fuel & CO₂</sub></td>
     <td align="center"><img src="screenshots/resorts.png" width="220" alt="Resorts"><br><sub>Resorts</sub></td>
     <td align="center"><img src="screenshots/ski-passes.png" width="220" alt="Ski passes as profiles"><br><sub>Ski passes as profiles</sub></td>
@@ -29,12 +34,7 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
   <tr>
     <td align="center"><img src="screenshots/safe.png" width="220" alt="Document safe"><br><sub>Document safe</sub></td>
     <td align="center"><img src="screenshots/slope-check.png" width="220" alt="Slope check (RCT)"><br><sub>Slope check (RCT)</sub></td>
-    <td align="center"><img src="screenshots/settings.png" width="220" alt="Settings"><br><sub>Settings</sub></td>
-  </tr>
-  <tr>
     <td align="center"><img src="screenshots/large-text.png" width="220" alt="150 % size, legible font"><br><sub>150 % size, legible font</sub></td>
-    <td></td>
-    <td></td>
   </tr>
 </table>
 
@@ -50,6 +50,8 @@ An app for ski pass holders – **Südtirol Skiarena**, **Dolomiti Superski**, *
 - **Pass years.** Each pass year has its own period and price. Statistics are calculated per year, with a year-to-year comparison.
 - **Travel, fuel & CO₂.** Set your home town, drive type (petrol, diesel, LPG, electric) and consumption once. For each mountain day you choose how you got there: car, car pool, public transport or without a car. The app estimates kilometres, fuel costs and CO₂ – and the CO₂ you saved. Road distances to all resorts are looked up once via OpenStreetMap and can be adjusted. The fuel price is set per pass year.
 - **Extra costs.** Track extras such as bike transport or a dog. They appear as a separate total and are not counted towards the payback.
+- **Resort at your location.** When logging a day, one tap picks the resort of your ski pass that is closest to where you are (up to 20 km).
+- **Dark mode.** Follows your phone's setting automatically, or set it to light or dark in the settings.
 - **Guided setup.** On first launch a short wizard walks you through language and appearance, your ski pass, the pass year and price, travel and backup. You can run it again from the settings.
 - **Statistics with charts.** A payback curve shows how the ticket value adds up over the pass year and the day the pass paid off, plus days per month (winter/summer) and per weekday. Value by sport, winter/summer split and an explorer list of all resorts with your visits. Switch between a compact view with the key numbers and the detailed view.
 - **Resorts.** All resorts of the selected pass with key figures, links to the official webcam pages and your own visit history. Add your own resorts at any time.
@@ -97,6 +99,7 @@ The iPhone version has the same features as the Android app, with a few differen
 - On Android, if Google backup is turned on on your phone, Android also backs up the app data (including documents) to your Google account, as it does for other apps. You control this in the Android settings under Google backup.
 - The Android app uses the internet **only** to check this repository for new releases (GitHub API), to download updates and – when you set your home town – once to look up the place and the road distances via OpenStreetMap (Nominatim, OSRM). Only the place name you type and its coordinates are sent.
 - On Android, automatic backups are written only to the folder you choose.
+- Your location is read **only** when you tap “🎯 Pick the resort at my location” while logging a day. It is used on the device to find the closest resort and is never stored or sent anywhere.
 - On iPhone, all data stays in the browser storage on your device. If you clear Safari's website data, it is gone – keep a backup.
 - The diagnostic report is created only when you request it, and you decide where to send it. It contains no days, resorts or documents.
 
